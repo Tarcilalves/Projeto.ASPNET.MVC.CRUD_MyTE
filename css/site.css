@@ -1,0 +1,101 @@
+
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--corTexto);
+    margin-bottom: 60px;
+    background-color: var(--superficie);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 1rem;
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.icon-home {
+    max-width: 1.5rem;    
+}
+.icon-user {
+    max-width: 2rem;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: var(--bs-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.btn-link:hover {
+    color: var(--bs-primary);
+}
+
+.header-user {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 3rem;
+    align-content: centar;
+    /* align-self: center; */
+    align-items: center;
+    height: 76px;
+}
+
+.user-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name { 
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.footer{
+    text-align: center;
+}
+.pesquisar {
+    display: flex;
+    margin:.5rem;
+    max-height: 48px;
+}
+img-pesquisar {
+    background-color: #E8DEF8;
+    width: 8px;
+}
+
+button-pesquisar {
+    background-color: #E8DEF8;
+    border-radius: 8px;
+    
+}
